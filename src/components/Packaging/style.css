@@ -1,0 +1,29 @@
+.packaging-container {
+  margin-top: 50px;
+  border: 1px solid rebeccapurple;
+  padding-top: 50px;
+}
+.packaging-header {
+  color: var(--main-blue, #007ba7);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0px 445px;
+  margin-bottom: 20px;
+}
+.packaging-subheader {
+  color: var(--text-light-blue, #2c92b1);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0px 445px;
+  margin-bottom: 35px;
+}
+.packaging-content-container {
+}

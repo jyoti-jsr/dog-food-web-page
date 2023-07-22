@@ -1,1 +1,117 @@
+.food-container {
+  /* height: 835px; */
+  border: 2px solid red;
+  padding-top: 50px;
+}
+.header-text {
+  color: var(--main-blue, #007ba7);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+}
+.header-desc {
+  color: var(--text-light-blue, #2c92b1);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
 
+/* food-img and text container */
+.food-details-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+.food-details-container .right,
+.left {
+  /* border: 1px solid green; */
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.food-details-container .right .header,
+.left .header {
+  color: var(--main-blue, #007ba7);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.food-details-container .right .sub-heading,
+.left .sub-heading {
+  color: var(--text-light-blue, #2c92b1);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 216px;
+}
+
+.food-details-container .middle {
+  margin: 0 50px;
+  width: 397px;
+  height: 397px;
+  /* border: 2px solid red; */
+}
+.food-details-container .middle .shadow {
+  /* background-color: #007ba7; */
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  background-image: url("../../../public/images/Ellipse.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  top: 35px;
+  left: -44px;
+  bottom: 55px;
+  z-index: 1;
+  opacity: 0.5;
+}
+.food-details-container .middle .img-container {
+  /* background-color: #a7a400; */
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /* top: px */
+  bottom: 395px;
+  z-index: 2;
+}
+/* .food-details-container .left {
+  border: 1px solid green;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+.button-container {
+  width: 256px;
+  height: 56px;
+  border-radius: 30px;
+  background: var(--yellow-secondary, #faae02);
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1150px) {
+  /* .food-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
+}

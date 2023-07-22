@@ -3,45 +3,50 @@ import "./styles.css";
 export default function Food() {
   return (
     <div className="food-container">
-      <h1>Freshly made food for good health.</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </p>
+      <div className="header-text">Freshly made food for good health.</div>
+      <div className="header-desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        <br /> eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
       <div className="food-details-container">
-        <div className="text-first">
-          <div className="upper text">
-            <h2>Real Food</h2>
-            <h6>
+        <div className="right">
+          <div className="text">
+            <div className="header">Real Food</div>
+            <div className="sub-heading">
               Human-grade meat and veggies in simple recipes, made for dogs
-            </h6>
+            </div>
           </div>
-          <div className="lower text">
-            <h2>Standard Kitchen</h2>
-            <h6>Safety and quality never before available to pets</h6>
-          </div>
-        </div>
-        <div className="food-img">
-          <div className="shadow">shadow</div>
-          <div className="img">
-            <img
-              src="./images/lamb-card.png"
-              alt="lamb"
-              width="95%"
-              // height="397px"
-            />
+          <div className="text">
+            <div className="header">Standard Kitchen</div>
+            <div className="sub-heading">
+              Safety and quality never before available to pets
+            </div>
           </div>
         </div>
-        <div className="text-second">
-          <div className="upper text">
-            <h2>Made Fresh</h2>
-            <h6>Maintain whole food and nutritional integrity</h6>
-          </div>
-          <div className="lower text">
-            <h2>Expert tested</h2>
-            <h6>Nutrition that exceeds industry standards for dogs (AAFCO)</h6>
+        <div className="middle">
+          <div className="shadow"></div>
+          <div className="img-container">
+            {/* img */}
+            <img src="./images/lamb-card.png" alt="lamb" />
           </div>
         </div>
+        <div className="left">
+          <div className="text">
+            <div className="header">Made Fresh</div>
+            <div className="sub-heading">
+              Maintain whole food and nutritional integrity
+            </div>
+          </div>
+          <div className="text">
+            <div className="header">Expert tested</div>
+            <div className="sub-heading">
+              Nutrition that exceeds industry standards for dogs (AAFCO)
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="button-container">
+        <img src="./images/See-your-recipes.png" alt="recipes" />
       </div>
     </div>
   );
