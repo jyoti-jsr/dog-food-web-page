@@ -1,0 +1,19 @@
+.bottomNav-content-container {
+  background: #f6e7c2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+}
+.bottomNav-content-iteams-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: var(--text-light-blue, #2c92b1);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

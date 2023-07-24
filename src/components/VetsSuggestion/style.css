@@ -1,0 +1,114 @@
+.vetsuggestion-container {
+  background: #fef4dc;
+  padding: 50px 0px;
+}
+.vetsuggestion-header {
+  color: var(--main-blue, #007ba7);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.vetsuggestion-card {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+.vetsuggestion-card-left {
+  /* border: 2px solid #80ff00; */
+}
+.doctor-desc-card-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.doctor-desc-card {
+  width: 300px;
+  height: 75.836px;
+  border-radius: 14px;
+
+  /* Card Highlighted */
+  box-shadow: 0px 8px 30px 0px rgba(185, 185, 185, 0.25);
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 30px;
+}
+.doctor-desc-card.card-1 {
+  background: var(--white, #fff);
+}
+.doctor-desc-card.card-2 {
+  background: #fff8e8;
+}
+.doctor-desc-card.card-3 {
+  background: #fff8e8;
+}
+
+.doctor-desc-card-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  /* border: 1px solid red; */
+  margin-left: 30px;
+}
+.doctor-desc-card-desc {
+}
+.doctor-name {
+  color: var(--main-blue, #007ba7);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.doctor-title {
+  color: var(--text-light-blue, #2c92b1);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.vetsuggestion-card-right {
+  /* flex: 1; */
+  /* border: 2px solid #0000ff; */
+  /* text-align: center; */
+}
+.vetsuggestion-card-right-header {
+  color: var(--main-blue, #007ba7);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.vetsuggestion-card-right-rating {
+  margin: 20px 0px;
+}
+.vetsuggestion-card-right-desc {
+  color: var(--text-light-blue, #2c92b1);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 547px;
+}
+@media (max-width: 570px) {
+  .vetsuggestion-card-right-desc {
+    width: 380px;
+    font-size: 10px;
+  }
+  .vetsuggestion-card-right {
+    /* flex: 1; */
+    /* border: 2px solid #0000ff; */
+    text-align: center;
+  }
+}

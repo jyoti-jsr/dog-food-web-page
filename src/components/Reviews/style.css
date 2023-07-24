@@ -1,0 +1,90 @@
+.reviews-container {
+  /* border: 2px solid red; */
+  margin-top: 50px;
+  padding: 50px;
+}
+.reviews-container-header {
+  color: var(--main-blue, #007ba7);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.reviews-container-subheader {
+  color: var(--text-light-blue, #2c92b1);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+.reviews-cards-container {
+  /* border: 2px solid greenyellow; */
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.reviews-card-comment {
+  /* border: 2px solid #2f52ff; */
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  background: var(--white, #fff);
+  /* Card */
+  box-shadow: 0px 4px 20px 0px rgba(133, 132, 132, 0.1);
+  padding: 40px;
+}
+.reviews-reviewer {
+  color: var(--main-blue, #007ba7);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 20px 0px;
+}
+.reviews-reviewer-highlight {
+  color: var(--main-blue, #007ba7);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.reviews-reviewer-comment {
+  margin-top: 20px;
+  color: var(--text-light-blue, #2c92b1);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.reviews-full-card {
+  /* border: 2px solid #ee2fff; */
+  height: 515px;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 30px 0px rgba(185, 185, 185, 0.25);
+  background-image: url("../../../public/images/reviewers-full-card.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.reviews-full-card img {
+}
+.reviews-card-img {
+  /* border: 2px solid #2fff52; */
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 30px 0px rgba(185, 185, 185, 0.25);
+  background-image: url("../../../public/images/reviews-card-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,0 +1,108 @@
+.footer-container {
+  background: #ede7d9;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 100px;
+}
+.footer-content-container {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.footer-left-content {
+  width: 350px;
+}
+.footer-left-text {
+  color: var(--black, #0d0c22);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.footer-left-input-box {
+  display: flex;
+  align-items: center;
+}
+.footer-left-input-box input {
+  height: 50px;
+  border-style: none;
+  outline: none;
+  width: 215px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: var(--white, #fff);
+  padding-left: 30px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--text-light-blue, #2c92b1);
+}
+::placeholder {
+  color: var(--text-light-blue, #2c92b1);
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-left-input-button {
+  height: 50px;
+  width: 70px;
+  border-radius: 10px;
+  background: #fdcc5f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -10px;
+  cursor: pointer;
+}
+.footer-middle-content-icon {
+  height: 20px;
+  width: 20px;
+}
+.footer-middle-content {
+  display: flex;
+  gap: 20px;
+  /* width: 350px; */
+}
+.footer-rightt-content {
+  width: 350px;
+}
+.footer-rightt-content-header {
+  color: var(--main-blue, #007ba7);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  direction: rtl;
+  /* width: 314px; */
+}
+.footer-rightt-content-subheader {
+  color: var(--main-blue, #007ba7);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  direction: rtl;
+}
+.footer-rightt-content-policy {
+  color: var(--main-blue, #007ba7);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  direction: rtl;
+}

@@ -1,7 +1,7 @@
 import "./style.css";
 export default function TopBanner() {
   return (
-    <div className="top-banner-container">
+    <div className="top-banner-container " id="aboutus">
       <div className="banner-text">
         <div className="text-container">
           <h1>

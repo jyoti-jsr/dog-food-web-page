@@ -2,7 +2,7 @@ import "./styles.css";
 
 export default function Food() {
   return (
-    <div className="food-container">
+    <div className="food-container" id="product">
       <div className="header-text">Freshly made food for good health.</div>
       <div className="header-desc">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

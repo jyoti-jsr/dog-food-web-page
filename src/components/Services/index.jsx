@@ -1,7 +1,7 @@
 import "./style.css";
 export default function Services() {
   return (
-    <div className="services-container">
+    <div className="services-container" id="services">
       <div className="servcies-header">Our Services for you</div>
       <div className="services-sub-header">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br />

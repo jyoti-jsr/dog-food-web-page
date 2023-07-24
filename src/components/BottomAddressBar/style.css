@@ -1,0 +1,28 @@
+.bottom-address-bar-container {
+  /* border: 1px solid green; */
+  background: #ede7d9;
+  padding: 50px 100px 30px 100px;
+}
+.bottom-address-bar-card {
+  /* border: 1px solid saddlebrown; */
+  /* border: 2px solid greenyellow; */
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.bottom-address-bar-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 200px;
+}
+.bottom-address-bar-icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: var(--yellow-secondary, #faae02);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

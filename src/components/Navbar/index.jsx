@@ -1,5 +1,9 @@
 import "./style.css";
 const Navbar = () => {
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    element.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div className="navbar-conatiner">
       <div className="navbar">
@@ -8,21 +12,11 @@ const Navbar = () => {
             <img src="./images/LOGO.png" alt="" />
           </div>
           <ul className="nav-list">
-            <li>
-              <a href="#">About us</a>
-            </li>
-            <li>
-              <a href="#">Services</a>
-            </li>
-            <li>
-              <a href="#">Product</a>
-            </li>
-            <li>
-              <a href="#">Reviews</a>
-            </li>
-            <li>
-              <a href="#">FAQ</a>
-            </li>
+            <li onClick={() => scrollToSection("aboutus")}>About us</li>
+            <li onClick={() => scrollToSection("services")}>Services</li>
+            <li onClick={() => scrollToSection("product")}>Product</li>
+            <li onClick={() => scrollToSection("reviews")}>Reviews</li>
+            <li>FAQ</li>
           </ul>
         </div>
         <div className="navbar-left">
