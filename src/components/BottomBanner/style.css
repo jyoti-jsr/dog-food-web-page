@@ -57,6 +57,7 @@
   font-weight: 500;
   line-height: normal;
   margin: 15px auto;
+  cursor: pointer;
 }
 @media (max-width: 1200px) {
   .bottom-banner-card-title {
