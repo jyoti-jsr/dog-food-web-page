@@ -23,9 +23,7 @@ const Navbar = () => {
             <li>FAQ</li>
           </ul>
         </div>
-        <div className="navbar-left">
-          <img src="./images/login.png" alt="login-button" />
-        </div>
+        <div className="navbar-left">Login</div>
         <div className="hamburger" onClick={() => setShowMenu(!showMenu)}>
           <span className="bar"></span>
           <span className="bar"></span>
