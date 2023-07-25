@@ -1,5 +1,9 @@
+import { useState } from "react";
 import "./style.css";
 const Navbar = () => {
+  const [showMenu, setShowMenu] = useState(true);
+  console.log(showMenu);
+
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     element.scrollIntoView({ behavior: "smooth" });
@@ -22,7 +26,7 @@ const Navbar = () => {
         <div className="navbar-left">
           <img src="./images/login.png" alt="login-button" />
         </div>
-        <div className="hamburger">
+        <div className="hamburger" onClick={() => setShowMenu(!showMenu)}>
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>
